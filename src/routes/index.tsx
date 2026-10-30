@@ -18,17 +18,17 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "CCA Governança Técnica — Gestão técnica de pós-obra baseada em evidências" },
+      { title: "CCA Governança Técnica — Gestão técnica baseada em evidências" },
       {
         name: "description",
         content:
-          "A CCA Governança Técnica estrutura tecnicamente o seu pós-obra com metodologia, plataforma e análise baseada em evidências. Reduza retrabalho, aumente controle e tome decisões seguras.",
+          "A CCA Governança Técnica estrutura tecnicamente a sua operação com metodologia, plataforma e análise baseada em evidências. Reduza retrabalho, aumente controle e tome decisões seguras.",
       },
-      { property: "og:title", content: "CCA Governança Técnica — Pós-obra com gestão técnica" },
+      { property: "og:title", content: "CCA Governança Técnica — Gestão técnica estruturada" },
       {
         property: "og:description",
         content:
-          "Controle, rastreabilidade e decisões seguras para o pós-obra. Governança técnica aplicada da CCA.",
+          "Controle, rastreabilidade e decisões seguras com governança técnica aplicada da CCA.",
       },
       { property: "og:type", content: "website" },
     ],

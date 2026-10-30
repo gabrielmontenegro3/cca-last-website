@@ -13,7 +13,7 @@ O site dispõe de um Portal de Contato Técnico acessível em /contato, integrad
 Características principais:
 
 - Seleção inicial do contexto operacional do solicitante:
-  - Construtora / Incorporadora (pós-obra e garantia predial)
+  - Construtora / Incorporadora (governança técnica e garantia predial)
   - Indústria (inspeção e reabilitação em ambiente operacional)
 - Formulário em etapas (wizard), com validação progressiva dos campos obrigatórios
 - Coleta estruturada de dados de contato: nome, empresa, cargo, WhatsApp e e-mail

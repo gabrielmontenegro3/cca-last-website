@@ -32,7 +32,7 @@ const CONSTRUTORA_TEMAS = [
   "Inspeção predial",
   "Diagnóstico técnico",
   "Laudos técnicos",
-  "Organização operacional do pós-obra",
+  "Organização operacional da governança técnica",
   "Controle técnico das ocorrências",
   "Fluxo de atendimento técnico",
 ] as const;
@@ -119,7 +119,7 @@ export function ContatoPortal() {
                   <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-cyan-electric">
                     Construtora / Incorporadora
                   </span>
-                  <h3 className="font-display text-2xl text-cream mt-1">Pós-obra</h3>
+                  <h3 className="font-display text-2xl text-cream mt-1">Governança técnica</h3>
                 </div>
               </div>
               <div className="p-6 lg:p-8 flex flex-col flex-1">
@@ -138,7 +138,7 @@ export function ContatoPortal() {
                   <li>Prescrição técnica</li>
                   <li>Laudos técnicos</li>
                   <li>Direcionamento técnico de reabilitação</li>
-                  <li>Organização operacional do pós-obra</li>
+                  <li>Organização operacional da governança técnica</li>
                   <li>Controle técnico das ocorrências</li>
                 </ul>
                 <Button className="mt-8 w-full bg-cyan-electric text-deep hover:opacity-90" size="lg" onClick={startConstrutora}>
@@ -278,11 +278,11 @@ function ConstrutoraFormWizard({
     return (
       <FormShell
         badge="Construtora / Incorporadora"
-        title="Atendimento Técnico Pós-obra"
+        title="Atendimento Técnico — Governança Técnica"
         onBack={onCancel}
       >
         <p className="text-muted-foreground text-sm leading-relaxed mb-8">
-        Preencha as informações abaixo para que nossa equipe compreenda o cenário operacional da sua construtora/incorporadora e avalie como a gestão técnica do pós-obra pode trazer mais controle, padronização e eficiência para sua operação.
+        Preencha as informações abaixo para que nossa equipe compreenda o cenário operacional da sua construtora/incorporadora e avalie como a governança técnica pode trazer mais controle, padronização e eficiência para sua operação.
         </p>
         <div className="space-y-5">
           <div>
@@ -384,7 +384,7 @@ function ConstrutoraFormWizard({
     <FormShell badge="Construtora / Incorporadora" title={submitted ? "Solicitação enviada com sucesso." : "Revisar e enviar"} onBack={onCancel}>
       <p className="text-muted-foreground leading-relaxed">
         {submitted
-          ? "As informações foram registradas e encaminhadas à equipe técnica da CCA para avaliação inicial das necessidades operacionais relacionadas ao pós-obra."
+          ? "As informações foram registradas e encaminhadas à equipe técnica da CCA para avaliação inicial das necessidades operacionais relacionadas à governança técnica."
           : "Confira os dados e envie sua solicitação. Nossa equipe retornará pelo e-mail ou WhatsApp informados."}
       </p>
       {submitError ? (

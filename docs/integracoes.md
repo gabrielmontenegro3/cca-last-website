@@ -70,7 +70,7 @@ Módulos e páginas do site:
 
 Módulos da plataforma CCA apresentados no site:
 
-- Gestão da garantia predial e pós-obra
+- Gestão da garantia predial e governança técnica
 - Dashboard com indicadores
 - Kanban de chamados
 - Chat integrado

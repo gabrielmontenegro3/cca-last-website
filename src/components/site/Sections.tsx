@@ -54,7 +54,7 @@ export function Problema() {
           <div className="lg:col-span-5">
             <Eyebrow n="02" label="O problema" />
             <h2 className="slide-title font-display font-medium leading-[1.02] tracking-tight text-foreground text-balance">
-              Transforme sua pós-obra em um{" "}
+              Transforme sua governança técnica em um{" "}
               <span className="text-gradient">processo estruturado</span>
             </h2>
             <p className="slide-copy text-muted-foreground">
@@ -122,7 +122,7 @@ export function Solucao() {
             <span className="text-gradient">processo controlado</span>
           </h2>
           <p className="slide-copy text-muted-foreground max-w-xl">
-            Com critérios técnicos, padronização e acompanhamento estruturado, a pós-obra deixa
+            Com critérios técnicos, padronização e acompanhamento estruturado, a governança técnica deixa
             de ser reativa e passa a operar com previsibilidade e controle.
           </p>
         </div>
@@ -187,7 +187,7 @@ export function Plataforma() {
             <span className="text-gradient">Garantia Predial</span>.
           </h2>
           <p className="slide-copy text-cream/75">
-            Estruturamos todo o pós-obra com metodologia técnica e uma plataforma
+            Estruturamos toda a governança técnica com metodologia e uma plataforma
             digital integrada que organiza cada etapa da operação.
           </p>
         </div>
@@ -244,7 +244,7 @@ export function Sistema() {
             <span className="text-gradient">centralizado</span> para decisões seguras
           </h2>
           <p className="slide-copy text-muted-foreground max-w-xl">
-            Centralizamos as etapas do pós-obra na plaforma: Demanda, Registro,
+            Centralizamos as etapas da governança técnica na plaforma: Demanda, Registro,
             Triagem, Planejamento, Inspeção, Diagnóstico, Prescrição técnica, Laudo e Fechamento. Assim, você ganha previsibilidade,
             reduz retrabalho e mantém evidências auditáveis.
           </p>
@@ -290,7 +290,7 @@ export function Fluxo() {
             </div>
             <h2 className="slide-title font-display font-medium leading-[1.05] sm:leading-[1.02] tracking-tight text-balance">
               Gestão técnica estruturada em{" "}
-              <span className="text-gradient">todas as etapas</span> da pós-obra
+              <span className="text-gradient">todas as etapas</span> da governança técnica
             </h2>
             <p className="slide-copy text-cream/75">
               Cada etapa é conduzida com critérios técnicos, garantindo rastreabilidade,
@@ -481,7 +481,7 @@ export function Campo() {
           <Eyebrow n="06" label="Benefícios e resultados" />
           <h2 className="slide-title font-display font-medium leading-[1.02] tracking-tight text-balance text-foreground">
             Mais controle e previsibilidade na sua{" "}
-            <span className="text-gradient">pós-obra</span>.
+            <span className="text-gradient">governança técnica</span>.
           </h2>
           <p className="slide-copy text-muted-foreground">
             Resultados visíveis no balanço, no tempo de resposta e na confiança
@@ -642,7 +642,7 @@ export function Diferencial() {
             </span>
           </h2>
           <p className="slide-copy text-cream/75 max-w-xl">
-            Atuamos em operações de pós-obra e garantia predial com total
+            Atuamos em operações de governança técnica e garantia predial com total
             confidencialidade, respeitando a integridade das informações e dos
             empreendimentos atendidos.
           </p>
@@ -668,7 +668,7 @@ export function Diferencial() {
             },
             {
               t: "Consistência operacional",
-              d: "Critérios claros, padronização e indicadores para previsibilidade do pós-obra.",
+              d: "Critérios claros, padronização e indicadores para previsibilidade da governança técnica.",
             },
           ].map((it) => (
             <div key={it.t} className="slide-card rounded-xl glass hover:bg-cream/10 transition-colors">
@@ -810,7 +810,7 @@ export function Footer() {
             <img src={logoCCA} alt="CCA" className="h-12 w-auto" />
           </div>
           <p className="mt-4 text-sm text-cream/65 max-w-xs">
-            Gestão técnica de pós-obra com controle, rastreabilidade e
+            Governança técnica com controle, rastreabilidade e
             decisões seguras.
           </p>
         </div>

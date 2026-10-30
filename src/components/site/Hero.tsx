@@ -41,7 +41,7 @@ export function Hero() {
             </h1>
 
             <p className="hero-copy text-cream/80 max-w-xl leading-relaxed">
-              Estruturamos a pós-obra com critérios técnicos, padronização e rastreabilidade —
+              Estruturamos a governança técnica com critérios técnicos, padronização e rastreabilidade —
               do chamado ao fechamento, com evidências e histórico auditável.
             </p>
 

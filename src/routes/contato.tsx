@@ -9,7 +9,7 @@ export const Route = createFileRoute("/contato")({
       {
         name: "description",
         content:
-          "Entrada técnica para construtoras, incorporadoras e indústria. Leads qualificados e conversas sobre pós-obra, garantia predial e inspeção.",
+          "Entrada técnica para construtoras, incorporadoras e indústria. Leads qualificados e conversas sobre governança técnica, garantia predial e inspeção.",
       },
     ],
   }),

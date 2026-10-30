@@ -4,7 +4,7 @@ import nodemailer from "nodemailer";
 import type { ContactSubmission } from "@/lib/contact";
 
 const FLOW_LABEL: Record<ContactSubmission["flow"], string> = {
-  construtora: "Construtora / Incorporadora — Pós-obra",
+  construtora: "Construtora / Incorporadora — Governança Técnica",
   industria: "Indústria — Inspeção e Reabilitação",
 };
 
