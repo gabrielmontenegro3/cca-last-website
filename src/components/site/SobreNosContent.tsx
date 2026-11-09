@@ -9,7 +9,7 @@ const GESTOES = [
 const introCopy = [
   <>
     A CCA é uma empresa especializada na estruturação técnica da informação produzida ao longo do
-    ciclo de vida do ativo construído. Há 8 anos no mercado, atua na inspeção e reabilitação de
+    ciclo de vida do ativo construído. Há 9 anos no mercado, atua na inspeção e reabilitação de
     sistemas e subsistemas construtivos em empreendimentos prediais e industriais, com foco no
     desempenho técnico, na rastreabilidade das condições construtivas e na verificação de
     responsabilidades ao longo do tempo.
@@ -34,30 +34,31 @@ const introCopy = [
 export function SobreNosContent() {
   return (
     <>
-      <section className="relative bg-background">
+      {/* No desktop, a introdução ocupa exatamente a altura da tela (menos a navbar):
+          texto, fonte e espaçamentos escalam com a altura da janela para caber sem rolar. */}
+      <section className="relative bg-background lg:min-h-[calc(100dvh-4rem)] lg:flex lg:items-center">
         <div className="absolute inset-0 grid-bg-light opacity-40 pointer-events-none" />
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-10 py-16 lg:py-24">
-          <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-cyan-electric mb-4">
+        <div className="relative w-full max-w-7xl mx-auto px-6 lg:px-10 py-12 lg:py-[clamp(1.25rem,5vh,5rem)]">
+          <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-cyan-electric mb-3 lg:mb-[clamp(0.5rem,1.5vh,1rem)]">
             Sobre nós
           </p>
-          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-medium leading-tight text-foreground text-balance max-w-4xl">
+          <h1 className="font-display text-3xl sm:text-4xl lg:text-[clamp(2rem,5.5vh,3rem)] font-medium leading-tight text-foreground text-balance max-w-4xl">
             Quem é a <span className="text-gradient">CCA</span>
           </h1>
 
-          <div className="mt-10 lg:mt-12 grid lg:grid-cols-2 lg:gap-x-12 xl:gap-x-16 gap-y-6 lg:items-start">
-            <div className="space-y-6">
-              {introCopy.slice(0, 2).map((paragraph, i) => (
-                <p
-                  key={i}
-                  className="text-lg lg:text-xl text-foreground/90 leading-relaxed tracking-[0.01em]"
-                >
-                  {paragraph}
-                </p>
-              ))}
-            </div>
-            <p className="text-lg lg:text-xl text-foreground/90 leading-relaxed tracking-[0.01em]">
-              {introCopy[2]}
-            </p>
+          {/* Colunas balanceadas: o texto se divide igualmente entre as duas colunas. */}
+          <div
+            lang="pt-BR"
+            className="mt-8 lg:mt-[clamp(1.25rem,4vh,3rem)] lg:columns-2 lg:gap-x-12 xl:gap-x-16 [&>p+p]:mt-5 lg:[&>p+p]:mt-[clamp(0.75rem,2vh,1.5rem)]"
+          >
+            {introCopy.map((paragraph, i) => (
+              <p
+                key={i}
+                className="text-base sm:text-lg lg:text-[clamp(1rem,2.3vh,1.25rem)] text-foreground/90 leading-relaxed tracking-[0.01em] text-justify hyphens-auto"
+              >
+                {paragraph}
+              </p>
+            ))}
           </div>
         </div>
       </section>
