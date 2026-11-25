@@ -244,7 +244,7 @@ export function Sistema() {
             <span className="text-gradient">centralizado</span> para decisões seguras
           </h2>
           <p className="slide-copy text-muted-foreground max-w-xl">
-            Centralizamos as etapas da governança técnica na plaforma: Demanda, Registro,
+            Centralizamos as etapas da governança técnica na plaforma: Solicitação, Registro,
             Triagem, Planejamento, Inspeção, Diagnóstico, Prescrição técnica, Laudo e Fechamento. Assim, você ganha previsibilidade,
             reduz retrabalho e mantém evidências auditáveis.
           </p>
@@ -271,7 +271,7 @@ export function Sistema() {
 export function Fluxo() {
   const ref = useReveal<HTMLDivElement>();
   const steps = [
-    "Demanda", "Registro", "Triagem", "Planejamento", "Inspeção",
+    "Solicitação", "Registro", "Triagem", "Planejamento", "Inspeção",
     "Diagnóstico", "Prescrição técnica", "Laudo", "Fechamento",
   ];
   return (
@@ -778,7 +778,7 @@ export function AreaCliente() {
             <span className="text-gradient">sua operação</span>.
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl">
-            Gerencie demandas técnicas, acompanhe as análises e auditorias em um
+            Gerencie solicitações técnicas, acompanhe as análises e auditorias em um
             único painel.
           </p>
         </div>
