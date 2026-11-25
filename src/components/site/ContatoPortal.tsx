@@ -169,7 +169,7 @@ export function ContatoPortal() {
                 <ul className="mt-3 space-y-1.5 text-sm text-foreground list-disc pl-5 flex-1">
                   <li>Inspeção técnica</li>
                   <li>Diagnóstico técnico</li>
-                  <li>Prognóstico de degradação</li>
+                  <li>Prognóstico</li>
                   <li>Avaliação de criticidade</li>
                   <li>Reabilitação de sistemas construtivos</li>
                   <li>Integridade operacional</li>

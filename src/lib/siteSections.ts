@@ -14,7 +14,7 @@ export const SITE_HEADER_OFFSET_PX = MAIN_NAV_HEIGHT_PX + SECTION_NAV_HEIGHT_PX;
 /** Seções da landing, na ordem em que aparecem na página */
 export const SITE_SECTIONS = [
   { id: "top", label: "Início" },
-  { id: "problema", label: "Problema" },
+  { id: "contexto", label: "Contexto" },
   { id: "solucao", label: "Solução" },
   { id: "pilares", label: "Pilares" },
   { id: "fluxo", label: "Fluxo" },

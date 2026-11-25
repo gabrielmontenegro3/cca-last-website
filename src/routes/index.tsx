@@ -3,7 +3,7 @@ import { Navbar } from "@/components/site/Navbar";
 import { SectionNav } from "@/components/site/SectionNav";
 import { Hero } from "@/components/site/Hero";
 import {
-  Problema,
+  Contexto,
   Plataforma,
   Sistema,
   Campo,
@@ -58,7 +58,7 @@ function Index() {
       <SectionNav />
       <main>
         <Hero />
-        <Problema />
+        <Contexto />
         <Plataforma />
         <Solucao />
         <Fluxo />

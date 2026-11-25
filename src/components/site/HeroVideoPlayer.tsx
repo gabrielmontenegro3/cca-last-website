@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Maximize, Minimize, Pause, Play, Volume2, VolumeX } from "lucide-react";
-import heroVideo from "@/assets/CCA_imagens_reais_v8.mp4";
+import heroVideo from "@/assets/CCA_video_PC_v10.mp4";
 import heroPoster from "@/assets/hero-building.jpg";
 import { cn } from "@/lib/utils";
 

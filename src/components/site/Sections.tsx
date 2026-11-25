@@ -10,7 +10,7 @@ function Eyebrow({ n, label }: { n: string; label: string }) {
 }
 
 /* TELA 2 — DOR DO CLIENTE */
-export function Problema() {
+export function Contexto() {
   const ref = useReveal<HTMLDivElement>();
   const items = [
     {
@@ -41,7 +41,7 @@ export function Problema() {
   ];
   return (
     <section
-      id="problema"
+      id="contexto"
       ref={ref}
       className="reveal site-slide relative bg-background overflow-hidden"
     >
@@ -52,7 +52,7 @@ export function Problema() {
       <div className="slide-stage relative max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 slide-grid items-center">
           <div className="lg:col-span-5">
-            <Eyebrow n="02" label="O problema" />
+            <Eyebrow n="02" label="O contexto" />
             <h2 className="slide-title font-display font-medium leading-[1.02] tracking-tight text-foreground text-balance">
               Transforme sua governança técnica em um{" "}
               <span className="text-gradient">processo estruturado</span>
@@ -516,7 +516,7 @@ export function Campo() {
 export function Industrial() {
   const ref = useReveal<HTMLDivElement>();
   const map = [
-    { k: "Problema", v: "Ocorrências após a entrega do empreendimento." },
+    { k: "Contexto", v: "Ocorrências após a entrega do empreendimento." },
     { k: "Solução", v: "Gestão Técnica estruturada da Garantia Predial." },
     { k: "Como Funciona", v: "Fluxo técnico da Gestão da Garantia Predial." },
     { k: "Pilares", v: "Os fundamentos da metodologia CCA." },
